@@ -13,7 +13,6 @@ typedef struct node {
 node;
 
 node *bucketlist[13] = {NULL};
-
 node *conductor;
 
 void insert(int id, int g1, int g2, char stu_name[256]) {
