@@ -5,6 +5,7 @@ The code takes in arguments from the command line in the style of:
 command (char), ID (int), Grade 1 (int), Grade 2 (int), Student Name (string)
 
 The code performs various functions with the data depending on the character input for the command:
+
 i (insert): inserts the entry with given data into the database (unless an entry with the same ID already exists)
 
 d (delete): deletes the entry with the given ID from the database (unless no entry with that ID exists)
